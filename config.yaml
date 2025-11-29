@@ -1,0 +1,56 @@
+baseURL: "https://www.esempio-dominio.com/"
+title: "Iuliana David - Mental Coach"
+defaultContentLanguage: "it"
+defaultContentLanguageInSubdir: false
+enableRobotsTXT: true
+
+paginate: 10
+
+# Multilingua
+languages:
+  it:
+    languageName: "Italiano"
+    weight: 1
+    title: "Iuliana David - Mental Coach"
+    params:
+      heroTitle: "Iuliana David"
+      heroSubtitle: "Mental Coach e facilitatore nel cambiamento"
+    menu:
+      main:
+        - name: "Life Coach - Badanti"
+          url: "/life-coach-badanti/"
+          weight: 10
+        - name: "Comunicazione - Aziende"
+          url: "/comunicazione-aziende/"
+          weight: 20
+        - name: "Sport - Attestati"
+          url: "/sport-attestati/"
+          weight: 30
+        - name: "Contatti"
+          url: "/contatti/"
+          weight: 40
+
+  ro:
+    languageName: "Română"
+    weight: 2
+    title: "Iuliana David - Mental Coach"
+    params:
+      heroTitle: "Iuliana David"
+      heroSubtitle: "Mental Coach și facilitator al schimbării"
+    menu:
+      main:
+        - name: "Life Coach - Îngrijitoare"
+          url: "/ro/life-coach-badanti/"
+          weight: 10
+        - name: "Comunicare - Companii"
+          url: "/ro/comunicazione-aziende/"
+          weight: 20
+        - name: "Sport - Certificate"
+          url: "/ro/sport-attestati/"
+          weight: 30
+        - name: "Contact"
+          url: "/ro/contatti/"
+          weight: 40
+
+# Dove metteremo gli asset (CSS, ecc.)
+assetDir: "assets"

@@ -1,0 +1,50 @@
+{{ define "title" }}{{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+
+  <!-- HERO -->
+  <section class="hero section section--noborder">
+    <h1 class="hero__title">{{ .Params.hero_title }}</h1>
+    <h2 class="hero__subtitle">{{ .Params.hero_subtitle }}</h2>
+    <p class="hero__lead">{{ .Params.hero_lead }}</p>
+
+    <div class="hero__actions">
+      <a class="btn-primary" href="{{ "life-coach-badanti" | relLangURL }}">Scopri i percorsi</a>
+      <a class="btn-secondary" href="{{ "contatti" | relLangURL }}">Contattami</a>
+    </div>
+  </section>
+
+  <!-- 3 CARD -->
+  <section class="cards section">
+    <div class="cards__grid">
+      <article class="card">
+        <h3>Life Coach - Badanti</h3>
+        <p>Percorsi dedicati alle badanti e a chi si prende cura degli altri ogni giorno.</p>
+        <a href="{{ "life-coach-badanti" | relLangURL }}">Scopri di più →</a>
+      </article>
+
+      <article class="card">
+        <h3>Comunicazione - Aziende</h3>
+        <p>Supporto per aziende e team che vogliono migliorare comunicazione e benessere.</p>
+        <a href="{{ "comunicazione-aziende" | relLangURL }}">Scopri di più →</a>
+      </article>
+
+      <article class="card">
+        <h3>Sport - Attestati</h3>
+        <p>Coaching e formazione certificata per il mondo sportivo e della performance.</p>
+        <a href="{{ "sport-attestati" | relLangURL }}">Scopri di più →</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- SEZIONE TESTO (contenuto della home) -->
+  <section class="section section--content">
+    {{ .Content }}
+  </section>
+
+  <!-- FORM CONTATTI IN HOME -->
+  <section class="section">
+    {{ partial "contact-form.html" . }}
+  </section>
+
+{{ end }}

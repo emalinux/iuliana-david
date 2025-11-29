@@ -1,0 +1,19 @@
+{{ define "title" }}{{ .Title }} | {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+  <article style="padding:2rem 1.5rem;">
+    <h1>{{ .Title }}</h1>
+
+    <div>
+      {{ .Content }}
+    </div>
+
+    {{ partial "cta-bottom.html" . }}
+
+    {{ if ne .Type "contatti" }}
+      <section style="margin-top:2rem;">
+        {{ partial "contact-form.html" . }}
+      </section>
+    {{ end }}
+  </article>
+{{ end }}

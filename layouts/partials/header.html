@@ -1,0 +1,30 @@
+<header class="site-header">
+  <div class="site-header__inner">
+    <div class="site-logo">
+      LOGO
+    </div>
+
+    <nav class="main-nav">
+      <ul>
+        {{ range .Site.Menus.main }}
+          <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+    </nav>
+
+    <div class="lang-switch">
+      {{ range .Site.Languages }}
+        {{ if eq .Lang $.Site.Language.Lang }}
+          <strong>
+            {{ if eq .Lang "it" }}🇮🇹 IT{{ else }}🇷🇴 RO{{ end }}
+          </strong>
+        {{ else }}
+          <a href="{{ .Lang | relLangURL }}">
+            {{ if eq .Lang "it" }}🇮🇹 IT{{ else }}🇷🇴 RO{{ end }}
+          </a>
+        {{ end }}
+        {{ if not (eq .Lang (index (last 1 $.Site.Languages) 0).Lang) }} | {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</header>
