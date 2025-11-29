@@ -1,13 +1,17 @@
 <header class="site-header">
   <div class="site-header__inner">
     <div class="site-logo">
-      LOGO
+      <!-- qui poi metteremo il logo -->
+      Iuliana David
     </div>
 
     <nav class="main-nav">
       <ul>
+        {{ $current := . }}
         {{ range .Site.Menus.main }}
-          <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+          <li class="{{ if or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}is-active{{ end }}">
+            <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+          </li>
         {{ end }}
       </ul>
     </nav>
@@ -23,7 +27,6 @@
             {{ if eq .Lang "it" }}🇮🇹 IT{{ else }}🇷🇴 RO{{ end }}
           </a>
         {{ end }}
-        {{ if not (eq .Lang (index (last 1 $.Site.Languages) 0).Lang) }} | {{ end }}
       {{ end }}
     </div>
   </div>

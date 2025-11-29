@@ -4,7 +4,8 @@ defaultContentLanguage: "it"
 defaultContentLanguageInSubdir: false
 enableRobotsTXT: true
 
-paginate: 10
+pagination:
+  pagerSize: 10
 
 # Multilingua
 languages:
@@ -14,7 +15,7 @@ languages:
     title: "Iuliana David - Mental Coach"
     params:
       heroTitle: "Iuliana David"
-      heroSubtitle: "Mental Coach e facilitatore nel cambiamento"
+      heroSubtitle: "Mental Coach e tecnico facilitatore nel cambiamento"
     menu:
       main:
         - name: "Life Coach - Badanti"
@@ -40,16 +41,16 @@ languages:
     menu:
       main:
         - name: "Life Coach - Îngrijitoare"
-          url: "/ro/life-coach-badanti/"
+          url: "/life-coach-badanti/"
           weight: 10
         - name: "Comunicare - Companii"
-          url: "/ro/comunicazione-aziende/"
+          url: "/comunicazione-aziende/"
           weight: 20
         - name: "Sport - Certificate"
-          url: "/ro/sport-attestati/"
+          url: "/sport-attestati/"
           weight: 30
         - name: "Contact"
-          url: "/ro/contatti/"
+          url: "/contatti/"
           weight: 40
 
 # Dove metteremo gli asset (CSS, ecc.)
