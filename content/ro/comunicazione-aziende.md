@@ -1,7 +1,11 @@
 ---
-title: "Comunicare - Companii"
-translationKey: "comunicazione-aziende"
-type: "pagina"
+title: "Comunicare – Companii"
+slug: "comunicazione-aziende"
 ---
 
-Conținut pagină RO Comunicare - Companii (provvisorio).
+_Pagina este în pregătire._
+
+Vei găsi aici informații despre:
+- programe de coaching pentru echipe și lideri
+- îmbunătățirea comunicării interne și a colaborării
+- pașii pentru a începe un parcurs cu Iuliana

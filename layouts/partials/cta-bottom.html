@@ -1,9 +1,21 @@
 <section class="section section--cta">
-  <h2>Vuoi iniziare un percorso di cambiamento?</h2>
-  <p>
-    Se senti che è il momento di rimettere al centro te stessa/o, possiamo lavorare insieme
-    per ritrovare chiarezza, equilibrio e direzione.
-  </p>
+  {{/* capisco se sono nella versione RO guardando l'URL */}}
+  {{ $url := .RelPermalink }}
+  {{ $isRO := or (hasPrefix $url "/ro/") (eq $url "/ro/") }}
 
-  <a href="{{ "contatti" | relLangURL }}" class="btn-secondary">Scrivimi per informazioni</a>
+  {{ if $isRO }}
+    <h2>Vrei să începi un proces de schimbare?</h2>
+    <p>Dacă simți că este momentul să te pui din nou în centrul propriei vieți, putem lucra împreună pentru a recăpăta claritate, echilibru și direcție.</p>
+
+    <a href="#contatti" class="btn-primary">
+      Scrie-mi pentru informații
+    </a>
+  {{ else }}
+    <h2>Vuoi iniziare un percorso di cambiamento?</h2>
+    <p>Se senti che è il momento di rimettere al centro te stessa/o, possiamo lavorare insieme per ritrovare chiarezza, equilibrio e direzione.</p>
+
+    <a href="#contatti" class="btn-primary">
+      Scrivimi per informazioni
+    </a>
+  {{ end }}
 </section>

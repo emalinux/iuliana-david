@@ -1,60 +1,74 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Iuliana David - Mental Coach</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Iuliana David - Mental Coach</description>
+    <title>Benvenuta/o on Iuliana David - Mental Coach</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content in Benvenuta/o on Iuliana David - Mental Coach</description>
     <generator>Hugo</generator>
     <language>it</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Comunicare - Companii</title>
-      <link>http://localhost:1313/ro/comunicazione-aziende/</link>
+      <title>Chi sono</title>
+      <link>//localhost:1313/chi-sono/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ro/comunicazione-aziende/</guid>
-      <description>&lt;p&gt;Conținut pagină RO Comunicare - Companii (provvisorio).&lt;/p&gt;</description>
+      <guid>//localhost:1313/chi-sono/</guid>
+      <description>&lt;div class=&#34;about-photo&#34;&gt;&#xA;  &lt;img src=&#34;//localhost:1313/img/hero-iuliana.jpeg&#34; alt=&#34;Iuliana David - Mental Coach&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Sono Iuliana David, &lt;strong&gt;Mental Coach e tecnico facilitatore nel cambiamento&lt;/strong&gt;.&lt;br&gt;&#xA;Da anni studio il comportamento umano, la comunicazione e i processi decisionali delle persone che vivono contesti complessi: chi si prende cura degli altri, chi lavora in azienda sotto pressione, chi deve gestire risultati, relazioni e responsabilità.&lt;/p&gt;&#xA;&lt;p&gt;Il mio lavoro nasce da una convinzione semplice:&lt;br&gt;&#xA;ogni persona possiede già dentro di sé le risorse per stare meglio, ma spesso queste risorse sono coperte da paure, abitudini, aspettative esterne e ruoli che non sentiamo più nostri.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Comunicazione - Aziende</title>
-      <link>http://localhost:1313/it/comunicazione-aziende/</link>
+      <title>Cine sunt</title>
+      <link>//localhost:1313/ro/chi-sono/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/it/comunicazione-aziende/</guid>
-      <description>&lt;p&gt;Contenuto pagina IT Comunicazione - Aziende (testo provvisorio).&lt;/p&gt;</description>
+      <guid>//localhost:1313/ro/chi-sono/</guid>
+      <description>&lt;div class=&#34;about-photo&#34;&gt;&#xA;  &lt;img src=&#34;//localhost:1313/img/hero-iuliana.jpeg&#34; alt=&#34;Iuliana David - Mental Coach&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Sunt Iuliana David, &lt;strong&gt;Mental Coach și facilitator al schimbării&lt;/strong&gt;.&lt;br&gt;&#xA;De ani de zile studiez comportamentul uman, comunicarea și procesele decizionale ale persoanelor care trăiesc în contexte complexe: cei care au grijă de ceilalți, cei care lucrează în companii sub presiune, cei care trebuie să gestioneze rezultate, relații și responsabilități.&lt;/p&gt;&#xA;&lt;p&gt;Munca mea pornește de la o convingere simplă:&lt;br&gt;&#xA;fiecare persoană are deja în interior resursele de care are nevoie pentru a se simți mai bine, însă de multe ori aceste resurse sunt acoperite de frici, obișnuințe, așteptări din exterior și roluri care nu ne mai aparțin.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Comunicare – Companii</title>
+      <link>//localhost:1313/ro/comunicazione-aziende/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/ro/comunicazione-aziende/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Pagina este în pregătire.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Vei găsi aici informații despre:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;programe de coaching pentru echipe și lideri&lt;/li&gt;&#xA;&lt;li&gt;îmbunătățirea comunicării interne și a colaborării&lt;/li&gt;&#xA;&lt;li&gt;pașii pentru a începe un parcurs cu Iuliana&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Comunicazione – Aziende</title>
+      <link>//localhost:1313/comunicazione-aziende/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/comunicazione-aziende/</guid>
+      <description>&lt;p&gt;Supporto per aziende e team che vogliono migliorare comunicazione, collaborazione e benessere interno.&lt;/p&gt;&#xA;&lt;p&gt;Struttura suggerita:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;a chi è rivolto (manager, team, HR, ecc.)&lt;/li&gt;&#xA;&lt;li&gt;quali problemi tipici si affrontano&lt;/li&gt;&#xA;&lt;li&gt;tipo di interventi (sessioni individuali, di gruppo, workshop)&lt;/li&gt;&#xA;&lt;li&gt;benefici concreti per l’azienda&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Contatti</title>
-      <link>http://localhost:1313/it/contatti/</link>
+      <link>//localhost:1313/contatti/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/it/contatti/</guid>
+      <guid>//localhost:1313/contatti/</guid>
       <description>&lt;p&gt;Qui andrà il testo introduttivo della pagina Contatti (versione IT).&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Life Coach - Badanti</title>
-      <link>http://localhost:1313/it/life-coach-badanti/</link>
+      <title>Life Coach – Badanti</title>
+      <link>//localhost:1313/life-coach-badanti/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/it/life-coach-badanti/</guid>
-      <description>&lt;p&gt;Contenuto pagina IT Life Coach - Badanti (testo provvisorio).&lt;/p&gt;</description>
+      <guid>//localhost:1313/life-coach-badanti/</guid>
+      <description>&lt;p&gt;Percorsi dedicati alle badanti e a chi si prende cura degli altri ogni giorno.&lt;/p&gt;&#xA;&lt;p&gt;Qui metteremo:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;breve introduzione del problema (stress, carico emotivo, isolamento)&lt;/li&gt;&#xA;&lt;li&gt;cosa si porta a casa dal percorso&lt;/li&gt;&#xA;&lt;li&gt;come si svolgono gli incontri (online/presenza, durata, frequenza)&lt;/li&gt;&#xA;&lt;li&gt;una mini FAQ se serve&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;em&gt;Per ora va benissimo anche solo 3–4 paragrafi “di lavoro grezzo”: l’importante è che la pagina esista.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Life Coach - Îngrijitoare</title>
-      <link>http://localhost:1313/ro/life-coach-badanti/</link>
+      <title>Life Coach – Îngrijitoare</title>
+      <link>//localhost:1313/ro/life-coach-badanti/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ro/life-coach-badanti/</guid>
-      <description>&lt;p&gt;Conținut pagină RO Life Coach - Îngrijitoare (provvisorio).&lt;/p&gt;</description>
+      <guid>//localhost:1313/ro/life-coach-badanti/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Pagina în curs de actualizare.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;În curând vei găsi aici informații detaliate despre:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;sprijin pentru îngrijitoare și persoane care au grijă de alții&lt;/li&gt;&#xA;&lt;li&gt;cum te poate ajuta coaching-ul să îți recapeți echilibrul și energia&lt;/li&gt;&#xA;&lt;li&gt;cum poți începe un parcurs personalizat cu Iuliana&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Sport - Attestati</title>
-      <link>http://localhost:1313/it/sport-attestati/</link>
+      <title>Sport – Attestati</title>
+      <link>//localhost:1313/sport-attestati/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/it/sport-attestati/</guid>
-      <description>&lt;p&gt;Contenuto pagina IT Sport - Attestati (testo provvisorio).&lt;/p&gt;</description>
+      <guid>//localhost:1313/sport-attestati/</guid>
+      <description>&lt;p&gt;Coaching e formazione certificata per il mondo sportivo e della performance.&lt;/p&gt;&#xA;&lt;p&gt;Struttura:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;a chi è rivolto (atleti, allenatori, squadre)&lt;/li&gt;&#xA;&lt;li&gt;focus: mental coaching, gestione pressione, motivazione&lt;/li&gt;&#xA;&lt;li&gt;attestati/certificazioni che rilascia&lt;/li&gt;&#xA;&lt;li&gt;come si può iniziare il percorso&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Sport - Certificate</title>
-      <link>http://localhost:1313/ro/sport-attestati/</link>
+      <title>Sport – Certificate</title>
+      <link>//localhost:1313/ro/sport-attestati/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ro/sport-attestati/</guid>
-      <description>&lt;p&gt;Conținut pagină RO Sport - Certificate (provvisorio).&lt;/p&gt;</description>
+      <guid>//localhost:1313/ro/sport-attestati/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Această pagină va fi actualizată în curând.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;În curând:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;detalii despre coaching pentru sportivi&lt;/li&gt;&#xA;&lt;li&gt;sprijin pentru performanță și gestionarea presiunii&lt;/li&gt;&#xA;&lt;li&gt;informații despre certificate și atestate&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,4 +1,4 @@
-baseURL: "https://www.esempio-dominio.com/"
+baseURL: "/"
 title: "Iuliana David - Mental Coach"
 defaultContentLanguage: "it"
 defaultContentLanguageInSubdir: false
@@ -7,51 +7,54 @@ enableRobotsTXT: true
 pagination:
   pagerSize: 10
 
-# Multilingua
+# -------------------------
+# MULTILINGUA + MENU
+# -------------------------
 languages:
   it:
     languageName: "Italiano"
+    languageCode: "it"
     weight: 1
     title: "Iuliana David - Mental Coach"
-    params:
-      heroTitle: "Iuliana David"
-      heroSubtitle: "Mental Coach e tecnico facilitatore nel cambiamento"
     menu:
       main:
-        - name: "Life Coach - Badanti"
+        - name: "Life Coach – Badanti"
           url: "/life-coach-badanti/"
           weight: 10
-        - name: "Comunicazione - Aziende"
+        - name: "Comunicazione – Aziende"
           url: "/comunicazione-aziende/"
           weight: 20
-        - name: "Sport - Attestati"
+        - name: "Sport – Attestati"
           url: "/sport-attestati/"
           weight: 30
-        - name: "Contatti"
-          url: "/contatti/"
+        - name: "Info – Contatti"
+          url: "/chi-sono/"
           weight: 40
 
   ro:
     languageName: "Română"
+    languageCode: "ro"
     weight: 2
     title: "Iuliana David - Mental Coach"
-    params:
-      heroTitle: "Iuliana David"
-      heroSubtitle: "Mental Coach și facilitator al schimbării"
     menu:
       main:
-        - name: "Life Coach - Îngrijitoare"
+        - name: "Life Coach – Îngrijitoare"
           url: "/life-coach-badanti/"
           weight: 10
-        - name: "Comunicare - Companii"
+        - name: "Comunicare – Companii"
           url: "/comunicazione-aziende/"
           weight: 20
-        - name: "Sport - Certificate"
+        - name: "Sport – Certificate"
           url: "/sport-attestati/"
           weight: 30
-        - name: "Contact"
-          url: "/contatti/"
+        - name: "Info – Contact"
+          url: "/chi-sono/"
           weight: 40
 
 # Dove metteremo gli asset (CSS, ecc.)
 assetDir: "assets"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

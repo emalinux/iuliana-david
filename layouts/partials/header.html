@@ -1,33 +1,58 @@
 <header class="site-header">
   <div class="site-header__inner">
-    <div class="site-logo">
-      <!-- qui poi metteremo il logo -->
-      Iuliana David
-    </div>
 
+    <!-- LOGO -->
+    <a href="{{ "/" | relLangURL }}" class="site-logo">
+      <img src="{{ "img/logo-iuliana.jpeg" | relURL }}"
+           alt="Iuliana David - Mental Coach"
+           class="site-logo__img">
+    </a>
+
+    <!-- MENU PRINCIPALE -->
     <nav class="main-nav">
       <ul>
         {{ $current := . }}
-        {{ range .Site.Menus.main }}
-          <li class="{{ if or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}is-active{{ end }}">
-            <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+        {{ range site.Menus.main }}
+          {{ $isActive := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
+          <li class="{{ if $isActive }}is-active{{ end }}">
+            <a href="{{ .URL | relLangURL }}">
+              {{/* Stile CAPS + minuscolo, separatore " – " */}}
+              {{ $parts := split .Name " – " }}
+              <span class="primary">{{ index $parts 0 }}</span>
+              {{ if ge (len $parts) 2 }}
+                <span class="secondary">– {{ index $parts 1 }}</span>
+              {{ end }}
+            </a>
           </li>
         {{ end }}
       </ul>
     </nav>
+    <!-- SWITCH LINGUA: porta alle HOME delle lingue -->
+<div class="lang-switch">
+  {{ $site := .Site }}
+  {{ $defaultLang := "it" }}   {{/* lingua di default del sito */}}
 
-    <div class="lang-switch">
-      {{ range .Site.Languages }}
-        {{ if eq .Lang $.Site.Language.Lang }}
-          <strong>
-            {{ if eq .Lang "it" }}🇮🇹 IT{{ else }}🇷🇴 RO{{ end }}
-          </strong>
-        {{ else }}
-          <a href="{{ .Lang | relLangURL }}">
-            {{ if eq .Lang "it" }}🇮🇹 IT{{ else }}🇷🇴 RO{{ end }}
-          </a>
-        {{ end }}
-      {{ end }}
-    </div>
+  {{ range $site.Languages }}
+    {{ $isCurrent := eq .Lang $site.Language.Lang }}
+
+    {{/* 
+       - se è la lingua di default  -> "/"
+       - se è un'altra lingua       -> "/<lang>/" (es. "/ro/")
+    */}}
+    {{ $href := "/" }}
+    {{ if ne .Lang $defaultLang }}
+      {{ $href = printf "/%s/" .Lang }}
+    {{ end }}
+
+    <a href="{{ $href }}" class="lang-switch__link{{ if $isCurrent }} is-active{{ end }}">
+      <img
+        src="{{ printf "img/flag-%s.webp" .Lang | relURL }}"
+        alt="{{ .LanguageName }}"
+        class="lang-flag">
+      <span class="lang-switch__code">{{ .Lang | upper }}</span>
+    </a>
+  {{ end }}
+</div>
+
   </div>
 </header>

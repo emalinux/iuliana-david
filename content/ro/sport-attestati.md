@@ -1,7 +1,11 @@
 ---
-title: "Sport - Certificate"
-translationKey: "sport-attestati"
-type: "pagina"
+title: "Sport – Certificate"
+slug: "sport-attestati"
 ---
 
-Conținut pagină RO Sport - Certificate (provvisorio).
+_Această pagină va fi actualizată în curând._
+
+În curând:
+- detalii despre coaching pentru sportivi
+- sprijin pentru performanță și gestionarea presiunii
+- informații despre certificate și atestate

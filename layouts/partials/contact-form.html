@@ -1,23 +1,50 @@
-<form name="contatti" method="POST" data-netlify="true" class="contact-form">
-  <input type="hidden" name="form-name" value="contatti">
+<section class="contact-form" id="contatti">
+  {{ $url := .RelPermalink }}
+  {{ $isRO := or (hasPrefix $url "/ro/") (eq $url "/ro/") }}
 
-  <h2>Contatti</h2>
-  <p>Compila il form per richiedere informazioni o prenotare una sessione.</p>
+  {{ if $isRO }}
+    <h2>Contact</h2>
+    <p>Completează formularul pentru a solicita informații sau a programa o sesiune.</p>
 
-  <label>
-    Nome e cognome<br>
-    <input type="text" name="nome" required>
-  </label>
+    <form action="#" method="post">
+      <label>
+        Nume și prenume
+        <input type="text" name="name" required>
+      </label>
 
-  <label>
-    Email<br>
-    <input type="email" name="email" required>
-  </label>
+      <label>
+        Email
+        <input type="email" name="email" required>
+      </label>
 
-  <label>
-    Messaggio<br>
-    <textarea name="messaggio" rows="5" required></textarea>
-  </label>
+      <label>
+        Mesaj
+        <textarea name="message" rows="5" required></textarea>
+      </label>
 
-  <button type="submit" class="btn-primary">Invia</button>
-</form>
+      <button type="submit" class="btn-primary">Trimite</button>
+    </form>
+  {{ else }}
+    <h2>Contatti</h2>
+    <p>Compila il form per richiedere informazioni o prenotare una sessione.</p>
+
+    <form action="#" method="post">
+      <label>
+        Nome e cognome
+        <input type="text" name="name" required>
+      </label>
+
+      <label>
+        Email
+        <input type="email" name="email" required>
+      </label>
+
+      <label>
+        Messaggio
+        <textarea name="message" rows="5" required></textarea>
+      </label>
+
+      <button type="submit" class="btn-primary">Invia</button>
+    </form>
+  {{ end }}
+</section>
