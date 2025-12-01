@@ -1,4 +1,6 @@
-# Iuliana David – Mental Coach  
+# Iuliana David – Mental Coach 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c06299fd-3847-4591-9652-61eb779bf0b2/deploy-status)](https://app.netlify.com/projects/iuliana-david/deploys)
+
 Sito web ufficiale | Progetto sviluppato con **Hugo**
 
 Benvenuta/o nel repository del sito ufficiale di **Iuliana David**, Mental Coach e facilitatore del cambiamento.  
