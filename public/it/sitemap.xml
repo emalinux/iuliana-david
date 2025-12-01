@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/privacy/</loc>
+  </url><url>
     <loc>//localhost:1313/</loc>
     <xhtml:link
                 rel="alternate"
@@ -43,10 +45,54 @@
     <loc>//localhost:1313/ro/chi-sono/</loc>
   </url><url>
     <loc>//localhost:1313/ro/comunicazione-aziende/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="//localhost:1313/comunicazione-aziende/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="//localhost:1313/ro/comunicazione-aziende/"
+                />
   </url><url>
     <loc>//localhost:1313/comunicazione-aziende/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="//localhost:1313/ro/comunicazione-aziende/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="//localhost:1313/comunicazione-aziende/"
+                />
+  </url><url>
+    <loc>//localhost:1313/ro/privacy-cookie/</loc>
+  </url><url>
+    <loc>//localhost:1313/ro/contatti/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="//localhost:1313/contatti/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="//localhost:1313/ro/contatti/"
+                />
   </url><url>
     <loc>//localhost:1313/contatti/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="//localhost:1313/ro/contatti/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="//localhost:1313/contatti/"
+                />
   </url><url>
     <loc>//localhost:1313/life-coach-badanti/</loc>
     <xhtml:link
@@ -73,8 +119,28 @@
                 />
   </url><url>
     <loc>//localhost:1313/sport-attestati/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="//localhost:1313/ro/sport-attestati/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="//localhost:1313/sport-attestati/"
+                />
   </url><url>
     <loc>//localhost:1313/ro/sport-attestati/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="//localhost:1313/sport-attestati/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="//localhost:1313/ro/sport-attestati/"
+                />
   </url><url>
     <loc>//localhost:1313/tags/</loc>
     <xhtml:link

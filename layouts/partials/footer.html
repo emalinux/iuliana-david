@@ -1,12 +1,43 @@
 <footer class="site-footer">
   <div class="site-footer__inner">
-    <p>&copy; {{ now.Format "2006" }} Iuliana David - Mental Coach</p>
 
-    <p>
-      Realizzato con il ❤️ da Manuel · 
-      <a href="https://www.assemblercomputer.net/" target="_blank" rel="noopener noreferrer">
-        Assembler Computer Lab
-      </a>
+    <!-- COPYRIGHT (uguale per IT e RO) -->
+    <p class="footer-name">
+      &copy; {{ now.Format "2006" }} Iuliana David · Mental Coach
     </p>
+
+    <!-- BLOCCO MULTILINGUA -->
+    {{ if eq .Site.Language.Lang "ro" }}
+
+      <!-- 🇷🇴 VERSIONE ROMENA -->
+      <p class="footer-info">
+        Studio profesional · Cod fiscal 00000000000 · ID DVDLNA00A00A000A
+      </p>
+
+      <p class="footer-links">
+        <a href="{{ "/privacy-cookie/" | relLangURL }}">Privacy & Cookie</a>
+      </p>
+
+      <p class="footer-credit">
+        Realizat cu ❤️ de Manuel - <a href="https://assemblercomputerlab.it" target="_blank">Assembler Computer Lab</a>
+      </p>
+
+    {{ else }}
+
+      <!-- 🇮🇹 VERSIONE ITALIANA -->
+      <p class="footer-info">
+        Studio professionale · P.IVA 00000000000 · CF DVDLNA00A00A000A
+      </p>
+
+      <p class="footer-links">
+        <a href="{{ "/privacy-cookie/" | relLangURL }}">Privacy & Cookie</a>
+      </p>
+
+      <p class="footer-credit">
+        Realizzato con ❤️ da Manuel - <a href="https://assemblercomputerlab.it" target="_blank">Assembler Computer Lab</a>
+      </p>
+
+    {{ end }}
+
   </div>
 </footer>

@@ -1,0 +1,27 @@
+{{/* Shortcode: two-col
+     Usage:
+     {{< two-col image="percorsi/badanti2.jpeg" alt="Assistente..." side="right" >}}
+     Testo in markdown...
+     {{< /two-col >}}
+*/}}
+
+{{ $side := .Get "side" | default "right" }}
+<div class="section-2col">
+  {{ if eq $side "right" }}
+    <div class="section-2col__text">
+      {{ .Inner | markdownify }}
+    </div>
+    <div class="section-2col__image">
+      <img src="{{ printf "img/%s" (.Get "image") | relURL }}"
+           alt="{{ .Get "alt" }}">
+    </div>
+  {{ else }}
+    <div class="section-2col__image">
+      <img src="{{ printf "img/%s" (.Get "image") | relURL }}"
+           alt="{{ .Get "alt" }}">
+    </div>
+    <div class="section-2col__text">
+      {{ .Inner | markdownify }}
+    </div>
+  {{ end }}
+</div>

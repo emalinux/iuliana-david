@@ -28,7 +28,7 @@ languages:
           url: "/sport-attestati/"
           weight: 30
         - name: "Info – Contatti"
-          url: "/chi-sono/"
+          url: "/contatti/"
           weight: 40
 
   ro:
@@ -48,7 +48,7 @@ languages:
           url: "/sport-attestati/"
           weight: 30
         - name: "Info – Contact"
-          url: "/chi-sono/"
+          url: "/contatti/"
           weight: 40
 
 # Dove metteremo gli asset (CSS, ecc.)

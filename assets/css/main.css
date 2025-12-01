@@ -410,7 +410,31 @@ h1, h2, h3,
     font-family: var(--font-serif);
   }
   
-  /* TESTO HOME */
+ /* Immagini nelle pagine (badanti, ecc.) */
+.page-photo {
+  margin: 2.5rem auto;
+  max-width: 44rem;        /* in linea con il contenuto */
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.08);
+}
+
+.page-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* CTA in fondo pagina */
+.page-cta {
+  text-align: center;
+  margin: 3rem auto 0;
+}
+
+.page-cta p {
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+}
 
   /* TESTO AGGIUNTIVO HOME (sotto le card) */
 .home-extra {
@@ -462,6 +486,39 @@ h1, h2, h3,
 .contact-form textarea {
   resize: vertical;
   min-height: 130px;
+}
+
+.contact-page__columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  gap: 2.5rem;
+  align-items: flex-start;
+}
+
+.contact-page__intro p {
+  margin-bottom: 0.8rem;
+}
+
+.contact-links {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 0.8rem 0;
+}
+
+.contact-links li {
+  margin-bottom: 0.3rem;
+}
+
+/* Spazio tra testo introduttivo e form contatti */
+.section--contact-page .contact-page__right {
+  margin-top: 52px;   /* prova 32, se vuoi più aria metti 40 */
+}
+
+/* Su schermi larghi, torna allineata in alto (colonne affiancate) */
+@media (min-width: 900px) {
+  .section--contact-page .contact-page__right {
+    margin-top: 0;
+  }
 }
   
   /* CTA BOTTOM */
@@ -572,4 +629,42 @@ h1, h2, h3,
   border-radius: 2px; /* leggero arrotondamento che fa premium */
   box-shadow: 0 0 2px rgba(0,0,0,0.15);
   display: inline-block;
+}
+
+/* Layout 2 colonne testo + immagine nelle pagine interne */
+.section-2col {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  margin: 2.5rem 0;
+}
+
+.section-2col img {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+  display: block;
+}
+
+.section-2col > div {
+  flex: 1;
+}
+
+/* versione invertita (immagine a sinistra, testo a destra) */
+.section-2col--reverse {
+  flex-direction: row-reverse;
+}
+
+/* Mobile: una colonna sola, immagine sopra */
+@media (max-width: 720px) {
+  .section-2col,
+  .section-2col--reverse {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .section-2col img {
+    max-width: 100%;
+  }
 }
