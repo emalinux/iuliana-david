@@ -1,8 +1,11 @@
 ---
-title: "Life Coach – Badanti"
+title: "Life Coach – Assistenti familiari"
 slug: "life-coach-badanti"
 translationKey: "life-coach-badanti"
 ---
+
+
+## Life Coach per assistenti familiari, caregiver e persone intraprendenti.
 
 La tua casa è il tuo primo business.  
 

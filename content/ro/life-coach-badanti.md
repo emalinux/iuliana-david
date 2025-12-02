@@ -4,6 +4,8 @@ slug: "life-coach-badanti"
 translationKey: "life-coach-badanti"
 ---
 
+## Life Coach pentru îngrijitoare, asistente familiale și persoane întreprinzătoare
+
 Casa ta este primul tău business.
 
 Dacă ești femeie, mamă prinsă între treburile casei sau îngrijitoare care a decis să transforme gestionarea unei case și a unei familii într-o profesie, știi deja câtă organizare, energie și strategie sunt necesare.

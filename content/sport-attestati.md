@@ -1,5 +1,5 @@
 ---
-title: "Sport – Attestati"
+title: "Mental Coach Sportivo"
 slug: "sport-attestati"
 translationKey: "sport-attestati"
 ---
@@ -15,19 +15,33 @@ C’è un fuoco che non si spegne, una forza che spinge, ma che ancora non sai d
 Questo non è solo un ritorno in campo:  
 è **un ritorno a te stesso**.
 
+---
+
 {{< two-col image="percorsi/sport.jpeg" alt="Allenamento sportivo motivazionale" side="right" >}}
 
-Insieme, trasformiamo la tua energia in direzione.  
-Riconnettiamoci al tuo potenziale autentico, quello che ti rende unico.  
-Alleniamo la tua mentalità di campione finché non diventerà la tua arma più potente.
+### Ora tocca a te
+
+Hai già dentro ciò che serve: grinta, disciplina, fame di crescita.  
+È il momento di metterlo in campo e andare oltre ciò che pensavi possibile.
+
+Non aspettare la gara perfetta.  
+La gara perfetta inizia quando **decidi di cambiare passo**, superando i tuoi limiti.
 
 {{< /two-col >}}
 
 {{< two-col image="percorsi/sport1.jpeg" alt="Atleta che supera i propri limiti" side="left" >}}
 
-Perché la sconfitta non è la fine.  
-È l’inizio del viaggio che ti porterà oltre i tuoi limiti.
+### Rialzati più forte
 
-**Trasforma la tua forza in vittoria!**
+Insieme, trasformiamo la tua energia in direzione.  
+Riconnettiamoci al tuo potenziale autentico, quello che ti rende unico/a.
+
+Perché la sconfitta non è la fine:  
+può essere una parte preziosa del tuo percorso.
+
+Alleniamo la tua mentalità di campione/ssa finché non diventerà la tua arma più potente.  
+Punta dritto al tuo prossimo traguardo.
+
+**Trasforma la tua forza in vittoria.**
 
 {{< /two-col >}}

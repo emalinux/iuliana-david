@@ -18,17 +18,17 @@ languages:
     title: "Iuliana David - Mental Coach"
     menu:
       main:
-        - name: "Life Coach – Badanti"
+        - name: "Life Coach – Assistenti Familiari"
           url: "/life-coach-badanti/"
           weight: 10
-        - name: "Comunicazione – Aziende"
+        - name: "Team Building – Aziendale"
           url: "/comunicazione-aziende/"
           weight: 20
-        - name: "Sport – Attestati"
+        - name: "Mental Coach Sportivo – Oltre i tuoi limiti"
           url: "/sport-attestati/"
           weight: 30
         - name: "Info – Contatti"
-          url: "/contatti/"
+          url: "/chi-sono/"
           weight: 40
 
   ro:
@@ -41,14 +41,14 @@ languages:
         - name: "Life Coach – Îngrijitoare"
           url: "/life-coach-badanti/"
           weight: 10
-        - name: "Comunicare – Companii"
+        - name: "Team Building – Companii"
           url: "/comunicazione-aziende/"
           weight: 20
-        - name: "Sport – Certificate"
+        - name: "Mental Coach Sportiv – Dincolo de limitele tale"
           url: "/sport-attestati/"
           weight: 30
         - name: "Info – Contact"
-          url: "/contatti/"
+          url: "/chi-sono/"
           weight: 40
 
 # Dove metteremo gli asset (CSS, ecc.)
