@@ -44,30 +44,6 @@
   </url><url>
     <loc>//localhost:1313/ro/chi-sono/</loc>
   </url><url>
-    <loc>//localhost:1313/ro/comunicazione-aziende/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="//localhost:1313/comunicazione-aziende/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="//localhost:1313/ro/comunicazione-aziende/"
-                />
-  </url><url>
-    <loc>//localhost:1313/comunicazione-aziende/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="//localhost:1313/ro/comunicazione-aziende/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="//localhost:1313/comunicazione-aziende/"
-                />
-  </url><url>
     <loc>//localhost:1313/ro/privacy-cookie/</loc>
   </url><url>
     <loc>//localhost:1313/ro/contatti/</loc>
@@ -94,18 +70,6 @@
                 href="//localhost:1313/contatti/"
                 />
   </url><url>
-    <loc>//localhost:1313/life-coach-badanti/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="//localhost:1313/ro/life-coach-badanti/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="//localhost:1313/life-coach-badanti/"
-                />
-  </url><url>
     <loc>//localhost:1313/ro/life-coach-badanti/</loc>
     <xhtml:link
                 rel="alternate"
@@ -118,16 +82,16 @@
                 href="//localhost:1313/ro/life-coach-badanti/"
                 />
   </url><url>
-    <loc>//localhost:1313/sport-attestati/</loc>
+    <loc>//localhost:1313/life-coach-badanti/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="//localhost:1313/ro/sport-attestati/"
+                href="//localhost:1313/ro/life-coach-badanti/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="//localhost:1313/sport-attestati/"
+                href="//localhost:1313/life-coach-badanti/"
                 />
   </url><url>
     <loc>//localhost:1313/ro/sport-attestati/</loc>
@@ -142,6 +106,18 @@
                 href="//localhost:1313/ro/sport-attestati/"
                 />
   </url><url>
+    <loc>//localhost:1313/sport-attestati/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="//localhost:1313/ro/sport-attestati/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="//localhost:1313/sport-attestati/"
+                />
+  </url><url>
     <loc>//localhost:1313/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -152,6 +128,30 @@
                 rel="alternate"
                 hreflang="it"
                 href="//localhost:1313/tags/"
+                />
+  </url><url>
+    <loc>//localhost:1313/comunicazione-aziende/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="//localhost:1313/ro/comunicazione-aziende/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="//localhost:1313/comunicazione-aziende/"
+                />
+  </url><url>
+    <loc>//localhost:1313/ro/comunicazione-aziende/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="//localhost:1313/comunicazione-aziende/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="//localhost:1313/ro/comunicazione-aziende/"
                 />
   </url>
 </urlset>

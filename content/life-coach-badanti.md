@@ -1,13 +1,10 @@
 ---
-title: "Life Coach – Assistenti familiari"
+title: "Life Coach – per persone intraprendenti"
 slug: "life-coach-badanti"
 translationKey: "life-coach-badanti"
 ---
 
-
-## Life Coach per assistenti familiari, caregiver e persone intraprendenti.
-
-La tua casa è il tuo primo business.  
+## La tua casa è il tuo primo business.  
 
 Se sei una donna, una mamma alle prese con le faccende casalinghe oppure un’assistente familiare che ha deciso di trasformare la gestione di una casa e di una famiglia nella propria professione, allora sai quanto richieda organizzazione, energia e strategia.
 

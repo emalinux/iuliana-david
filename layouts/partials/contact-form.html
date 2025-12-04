@@ -17,6 +17,13 @@
         <input type="email" name="email" required>
       </label>
 
+      <!-- 👇 NUOVO CAMPO TELEFON (RO) -->
+      <label>
+        Telefon
+        <input type="tel" name="phone">
+        <!-- se lo volete obbligatorio: aggiungi `required` qui sopra -->
+      </label>
+
       <label>
         Mesaj
         <textarea name="message" rows="5" required></textarea>
@@ -24,6 +31,7 @@
 
       <button type="submit" class="btn-primary">Trimite</button>
     </form>
+
   {{ else }}
     <h2>Contatti</h2>
     <p>Compila il form per richiedere informazioni o prenotare una sessione.</p>
@@ -37,6 +45,13 @@
       <label>
         Email
         <input type="email" name="email" required>
+      </label>
+
+      <!-- 👇 NUOVO CAMPO TELEFONO (IT) -->
+      <label>
+        Telefono
+        <input type="tel" name="phone">
+        <!-- anche qui: `required` se la vuole obbligatoria -->
       </label>
 
       <label>

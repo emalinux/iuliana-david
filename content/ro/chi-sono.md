@@ -7,87 +7,88 @@ slug: "chi-sono"
   <img src="/img/hero-iuliana.jpeg" alt="Iuliana David - Mental Coach">
 </div>
 
-Sunt Iuliana David, **Mental Coach și facilitator al schimbării**.  
-De ani de zile studiez comportamentul uman, comunicarea și procesele decizionale ale persoanelor care trăiesc în contexte complexe: cei care au grijă de ceilalți, cei care lucrează în companii sub presiune, cei care trebuie să gestioneze rezultate, relații și responsabilități.
+Sunt Iuliana David, **Mental Coach și facilitator al schimbării personale**.  
+De ani de zile studiez comportamentul uman, comunicarea și procesele decizionale ale persoanelor care trăiesc situații complexe: cine are grijă de alții, cine lucrează în companii sub presiune, cine gestionează rezultate, relații și responsabilități.
 
 Munca mea pornește de la o convingere simplă:  
-fiecare persoană are deja în interior resursele de care are nevoie pentru a se simți mai bine, însă de multe ori aceste resurse sunt acoperite de frici, obișnuințe, așteptări din exterior și roluri care nu ne mai aparțin.
+fiecare persoană are deja în interior resursele de care are nevoie pentru a se simți mai bine, însă de multe ori acestea sunt acoperite de frici, obișnuințe, așteptări externe și roluri care nu ne mai reprezintă.
 
 ---
 
-## Parcursul meu
+### Parcursul meu
 
 De-a lungul anilor am urmat:
 
-- cursuri de formare specifice în **coaching și dezvoltare personală**  
-- cursuri dedicate **comunicării eficiente** și gestionării relațiilor  
-- specializări orientate spre **sprijinirea îngrijitorilor, badantelor și persoanelor care oferă ajutor**
+- programe de formare specifice în **coaching și dezvoltare personală și profesională**.   
+- cursuri dedicate **comunicării eficiente**, NLP și gestionării relațiilor.   
+- o Licență în Științe ale Administrației și Organizației.   
+- specializare ca **Mental Coach Sportiv**, recunoscută de C.O.N.I.  
 
-Toate aceste “piese de puzzle” m-au condus către o profesie care îmbină metodă, ascultare și acțiune concretă.
+Toate aceste experiențe m-au condus către construirea unei profesii care îmbină metoda, ascultarea profundă și acțiunea concretă.  
+Este important de reținut că coaching-ul **nu este terapie**: nu sunt terapeut și nu înlocuiesc în niciun fel profesioniștii din domeniul medical sau psihologic.
 
-Nu sunt terapeut și nu înlocuiesc în niciun fel figurile medicale sau psihologice.  
-Rolul meu este diferit: te însoțesc în **trecerea de la analiză la acțiune**, de la „știu ce nu merge” la „încep să fac ceva diferit”.
+Rolul meu este să te însoțesc într-un proces de schimbare și creștere personală, ajutându-te să dezvolți claritate, direcție și instrumente practice.  
+Aplicat cu disciplină și metodă, acest parcurs te poate ajuta să-ți atingi obiectivele într-un mod eficient și autentic.
 
 ---
 
-## Cum lucrez
+### Cum lucrez
 
 În modul meu de a face coaching vei găsi:
 
-- **ascultare fără judecată**, în care poți spune cum te simți, așa cum e  
-- **întrebări direcționate**, care nu te pun în dificultate, ci deschid perspective noi  
-- **instrumente practice**: fișe, exerciții, pași mici de făcut între o sesiune și alta  
-- **aliniere la claritate**: pentru a distinge ce îți dorești cu adevărat de ceea ce faci „din obligație”  
-- **orientare spre acțiune**: fiecare întâlnire se încheie cu un pas concret pe care îl poți duce în viața de zi cu zi
+- **ascultare fără judecată** – poți aduce ceea ce trăiești, exact așa cum este  
+- **întrebări țintite**, menite să deschidă perspective noi  
+- **instrumente practice** – exerciții, fișe, pași concreți între sesiuni  
+- **antrenament pentru claritate** – pentru a distinge ce vrei cu adevărat de ceea ce faci „din obligație”  
+- **orientare spre acțiune** – fiecare întâlnire se încheie cu un pas concret pentru viața de zi cu zi
 
-Obiectivul nu este să devii „perfectă”, ci să te regăsești **mai lucidă, centrată și prezentă** în rolurile și zilele tale.
-
----
-
-## Pentru cine este munca mea
-
-Sprijinul meu se adresează în special:
-
-- **îngrijitorilor și persoanelor care au grijă de alții**, care în rutina zilnică se pun adesea pe ultimul loc  
-- **profesioniștilor și managerilor** care vor să îmbunătățească comunicarea, colaborarea și prezența în contexte de lucru solicitante  
-- persoanelor care traversează o **schimbare importantă** (loc de muncă nou, mutare, separare, reorganizare familială)  
-  și simt nevoia de mai multă claritate și direcție
-
-Dacă te regăsești într-una dintre aceste situații, coachingul poate deveni pentru tine un spațiu protejat în care să pui ordine, să revezi prioritățile și să pornești cu un pas diferit.
+Obiectivul nu este perfecțiunea, ci să te simți **mai ancorată/anclat, mai lucidă/lucid și mai prezentă/prezent** în alegerile tale.
 
 ---
 
-## Stilul meu
+### Pentru cine este munca mea
 
-Cei care lucrează cu mine mă descriu adesea ca fiind:
+Suportul meu se adresează în special:
+
+- **Îngrijitoarelor, mamelor și femeilor active**  
+care au grijă de ceilalți în fiecare zi și, prea des, se pun pe ele însele pe ultimul loc. Parcursul le ajută să regăsească echilibrul, direcția și spațiul personal.
+
+- **Companiilor și antreprenorilor**  
+care vor să transforme echipa într-un aliat real al creșterii, să îmbunătățească colaborarea și să creeze performanțe sustenabile.
+
+- **Profesioniștilor și profesionistelor**  
+care doresc să își dezvolte mindset-ul, claritatea și organizarea, să depășească blocaje și să conducă cu mai multă încredere drumul lor profesional și personal.
+
+- **Sportivilor pasionați**  
+care vor să-și antreneze mintea la fel de bine ca trupul, să-și reconstruiască motivația și să transforme fiecare provocare într-o oportunitate de creștere.
+
+Dacă te regăsești în oricare dintre aceste situații, coaching-ul poate deveni un spațiu protejat în care să-ți pui ordine, să-ți regândești prioritățile și să pornești cu un pas nou.
+
+---
+
+### Stilul meu
+
+Cei care lucrează cu mine mă descriu astfel:
 
 - directă, dar respectuoasă  
-- concretă și orientată spre fapte  
-- prezentă, dar fără a invada spațiul tău  
-- capabilă să „țin firul” chiar și atunci când tu te simți confuză
+- concretă și orientată spre rezultate  
+- prezentă, fără a fi invazivă  
+- capabilă să „țină firul” chiar și atunci când tu te simți copleșită/copleșit
 
-Nu promit soluții magice sau fraze motivaționale de pus pe perete.  
-Îți propun în schimb un **proces serios, structurat și uman**, în care tu ești protagonista.
+Nu îți promit soluții magice sau fraze motivaționale goale.  
+Îți ofer însă **un parcurs serios, structurat și uman**, în care tu ești protagonista/protagonistul.
 
 ---
 
-## De unde începem
+### De unde începem
 
-Primul pas este întotdeauna o **ședință scurtă de cunoaștere**: un spațiu în care clarificăm:
+Primul pas este întotdeauna o **call de cunoaștere** – un spațiu scurt în care stabilim:
 
 - de ce ai nevoie în acest moment  
-- dacă coachingul este instrumentul potrivit  
+- dacă coaching-ul este potrivit pentru situația ta  
 - dacă eu sunt persoana potrivită să te însoțească
 
-De acolo decidem împreună dacă și cum să continuăm și cu ce ritm.
+De acolo decidem împreună dacă începem un parcurs și în ce formă.
 
-Dacă simți că a sosit momentul să pui din nou în centru vocea ta interioară,  
-ne putem auzi pentru a programa o primă întâlnire.
-
----
-
-## Vrei să începi un parcurs de schimbare?
-
-Dacă simți că este momentul să readuci în centru propria ta viață, putem lucra împreună pentru a recăpăta claritate, echilibru și direcție.
-
-[Scrie-mi pentru informații](/contatti/)
+Dacă simți că e momentul să pui în centru vocea ta interioară,  
+mă poți [contacta](/ro/contatti/) pentru a programa prima întâlnire.

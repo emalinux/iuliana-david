@@ -1,11 +1,10 @@
 ---
-title: "Comunicazione – Aziende"
+title: "Team building – Aziende"
 slug: "comunicazione-aziende"
 translationKey: "comunicazione-aziende"
 ---
 
-## Team building  
-*“Il tuo team, il più grande alleato.”*
+## Il tuo team, il più grande alleato.
 
 Ogni azienda custodisce un potenziale nascosto: le persone che la abitano.  
 Spesso quel potenziale resta silenzioso, frammentato, non espresso… finché non viene guidato a trasformarsi in una forza unica, coesa, capace di creare risultati straordinari.

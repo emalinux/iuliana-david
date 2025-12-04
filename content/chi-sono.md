@@ -20,14 +20,16 @@ ogni persona possiede già dentro di sé le risorse per stare meglio, ma spesso 
 
 Nel corso degli anni ho seguito:
 
-- percorsi di formazione specifici nel **coaching e nella crescita personale**  
-- corsi dedicati alla **comunicazione efficace** e alla gestione delle relazioni  
-- specializzazioni orientate al **supporto di caregiver, badanti e figure di aiuto**
+- percorsi di formazione specifici nel **coaching e nella crescita personale e professionale**  
+- corsi dedicati alla **comunicazione efficace** , PNL  e gestione delle relazioni  
+- Laurea in scienze dell'Amministrazione e dell'Organizzazione
+- Specializzazione come Mental Coach Sportivo riconosciuta dal C.O.N.I
 
-Tutti questi tasselli mi hanno portata ad una professione che unisce metodo, ascolto e azione concreta.
+Tutti questi tasselli mi hanno condotta a costruire una professione che unisce metodo, ascolto profondo e azione concreta.
+È importante ricordare che il coaching non è una terapia: non sono una terapeuta e non sostituisco in alcun modo figure sanitarie o psicologiche.
 
-Non sono una terapeuta e non sostituisco in alcun modo figure sanitarie o psicologiche.  
-Il mio ruolo è diverso: ti affianco nel **passaggio dall’analisi all’azione**, da “so cosa non va” a “inizio a fare qualcosa di diverso”.
+Il mio ruolo è quello di accompagnarti in un percorso di cambiamento e crescita personale, aiutandoti a sviluppare consapevolezza, direzione e strumenti pratici.
+Applicato con metodo e disciplina, questo percorso ti permetterà di raggiungere i tuoi obiettivi nel modo più efficace e autentico possibile.
 
 ---
 
@@ -49,9 +51,17 @@ L’obiettivo non è diventare “perfetti”, ma tornare a sentirti **più luci
 
 Il mio supporto è pensato in particolare per:
 
-- **badanti e caregiver**, che si occupano quotidianamente degli altri e spesso dimenticano se stessi  
-- **professioniste e professionisti**, che desiderano migliorare comunicazione, sicurezza e presenza nei propri contesti lavorativi  
-- persone che stanno attraversando un **cambiamento importante** (nuovo lavoro, trasferimento, separazione, riorganizzazione familiare) e sentono il bisogno di maggiore chiarezza e direzione
+- **Per assistenti familiari, mamme e persone intraprendenti**
+che ogni giorno si prendono cura degli altri e, troppo spesso, mettono se stesse all’ultimo posto. Il percorso le aiuta a ritrovare equilibrio, direzione e un nuovo spazio personale.
+
+- **Per aziende e imprenditori**
+che vogliono trasformare il proprio team nel migliore alleato di crescita, migliorare la collaborazione e creare performance sostenibili nel tempo.
+
+- **Per professioniste e professionisti**
+che desiderano potenziare mindset, chiarezza e organizzazione, superare blocchi e guidare con più sicurezza il proprio percorso personale e lavorativo.
+
+- **Per sportivi appassionati**
+che vogliono allenare la mente tanto quanto il corpo, ricostruire motivazione, gestire pressioni e trasformare ogni sfida in un’opportunità di crescita.
 
 Se ti riconosci in una di queste situazioni, il coaching può diventare uno spazio protetto in cui rimettere ordine, rivedere le priorità e ripartire con un passo diverso.
 

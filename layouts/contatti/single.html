@@ -1,8 +1,6 @@
-{{ define "title" }}{{ .Title }} | {{ .Site.Title }}{{ end }}
-
 {{ define "main" }}
 
-  <!-- HERO SOLO PER LA PAGINA CONTATTI -->
+  <!-- HERO -->
   <section class="hero hero--split">
     <div class="hero__image-wrapper">
       <img src="{{ "img/hero-iuliana.jpeg" | relURL }}"
@@ -14,25 +12,97 @@
       <h1 class="hero__title">{{ .Params.hero_title }}</h1>
       <p class="hero__subtitle">{{ .Params.hero_subtitle }}</p>
 
-      {{ with .Params.hero_lead_1 }}
-        <p class="hero__lead">{{ . }}</p>
-      {{ end }}
+      <p class="hero__lead">
+        {{ .Params.hero_lead_1 }}<br>
+        {{ .Params.hero_lead_2 }}
+      </p>
 
-      {{ with .Params.hero_lead_2 }}
-        <p class="hero__lead">{{ . }}</p>
-      {{ end }}
+      <p class="hero__lead">
+        {{ .Params.hero_lead_3 }}
+      </p>
+    </div>
+  </section>
 
-      {{ with .Params.hero_lead_3 }}
-        <p class="hero__lead">{{ . }}</p>
+  <!-- SEZIONE PARTNERSHIP -->
+  {{ with .Params.partnership_title }}
+  <section class="section section--noborder partnership-section">
+    <div class="partnership-section__inner">
+      <h2>{{ . }}</h2>
+      <div class="partnership-section__text">
+        {{ $.Params.partnership_body | markdownify }}
+      </div>
+    </div>
+  </section>
+  {{ end }}
+
+        <!-- SEZIONE ATTESTATI -->
+  <section class="section attestati-section" id="attestati">
+    <h2>{{ .Params.attestati_title }}</h2>
+    <p>{{ .Params.attestati_intro }}</p>
+
+    <div class="attestati-grid">
+      {{ range .Params.attestati }}
+        <figure class="attestato-item"
+                data-full="/img/attestati/{{ .file }}"
+                data-label="{{ .label }}">
+          <div class="attestato-frame">
+            <img
+              src="/img/attestati/{{ .file }}"
+              alt="{{ .label }}"
+              loading="lazy"
+              class="attestato-thumb">
+          </div>
+          <figcaption class="attestato-caption">
+            {{ .label }}
+          </figcaption>
+        </figure>
       {{ end }}
     </div>
   </section>
 
-  <!-- BLOCCO CONTATTI -->
+  <!-- LIGHTBOX SEMPLICE -->
+  <div class="attestati-lightbox" id="attestati-lightbox">
+    <div class="attestati-lightbox__inner">
+      <img src="" alt="" class="attestati-lightbox__img">
+      <p class="attestati-lightbox__caption"></p>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const lightbox = document.getElementById('attestati-lightbox');
+      if (!lightbox) return;
+
+      const lightboxImg = lightbox.querySelector('.attestati-lightbox__img');
+      const lightboxCaption = lightbox.querySelector('.attestati-lightbox__caption');
+
+      document.querySelectorAll('.attestato-item').forEach(function (card) {
+        card.addEventListener('click', function (e) {
+          e.preventDefault();
+          const src = card.getAttribute('data-full');
+          const label = card.getAttribute('data-label') || '';
+
+          if (!src) return;
+
+          lightboxImg.src = src;
+          lightboxImg.alt = label;
+          lightboxCaption.textContent = label;
+          lightbox.classList.add('is-active');
+        });
+      });
+
+      // Chiudi cliccando fuori
+      lightbox.addEventListener('click', function () {
+        lightbox.classList.remove('is-active');
+      });
+    });
+  </script>
+
+  <!-- BLOCCO CONTATTI (testo + form) -->
   <section class="section section--contact-page">
     <div class="contact-page__columns">
 
-      <!-- Colonna sinistra: testo dalla pagina -->
+      <!-- Colonna sinistra: testo dalla pagina (Contattami) -->
       <div class="contact-page__left">
         {{ .Content }}
       </div>

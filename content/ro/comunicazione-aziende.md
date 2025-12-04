@@ -1,11 +1,10 @@
 ---
-title: "Comunicare – Companii"
+title: "Team building – Companii"
 slug: "comunicazione-aziende"
 translationKey: "comunicazione-aziende"
 ---
 
-## Team building  
-*„Echipa ta, cel mai mare aliat al tău.”*
+## Echipa ta, cel mai mare aliat al tău.
 
 Fiecare companie ascunde un potențial important: oamenii care o compun.  
 De multe ori acest potențial rămâne tăcut, fragmentat, neexprimat… până când este ghidat să se transforme într-o forță unică, coerentă, capabilă să genereze rezultate extraordinare.
