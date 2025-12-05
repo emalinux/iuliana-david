@@ -30,7 +30,7 @@ attestati:
   - file: "attestato-infor.png"
     label: "Certificat INFOR"
   - file: "attestato-opm.png"
-    label: "Certificat OPM"
+    label: "Certificat OSM"
   - file: "attestato-pnl.png"
     label: "Certificat PNL"
   - file: "attestato-scuola-lattes.png"
