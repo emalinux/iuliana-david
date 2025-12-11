@@ -197,16 +197,16 @@
       
         <figure class="attestato-item"
                 data-full="/img/attestati/attestato-opm.png"
-                data-label="Attestato OPM">
+                data-label="Attestato OSM">
           <div class="attestato-frame">
             <img
               src="/img/attestati/attestato-opm.png"
-              alt="Attestato OPM"
+              alt="Attestato OSM"
               loading="lazy"
               class="attestato-thumb">
           </div>
           <figcaption class="attestato-caption">
-            Attestato OPM
+            Attestato OSM
           </figcaption>
         </figure>
       
@@ -355,7 +355,29 @@
 <li>💼 <strong>LinkedIn:</strong> Iuliana David</li>
 </ul>
 <p>Ogni richiesta è letta personalmente da me: ti risponderò nel più breve tempo possibile per fissare una prima call conoscitiva.</p>
-
+<form name="contact-it" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+  <input type="hidden" name="form-name" value="contact-it">
+  <p class="hidden">
+    <label>Non compilare questo campo: <input name="bot-field"></label>
+  </p>
+  <label>
+    Nome e cognome
+    <input type="text" name="name" required>
+  </label>
+  <label>
+    Email
+    <input type="email" name="email" required>
+  </label>
+  <label>
+    Telefono
+    <input type="tel" name="phone">
+  </label>
+  <label>
+    Messaggio
+    <textarea name="message" rows="5" required></textarea>
+  </label>
+<p><button type="submit" class="btn-primary">Invia</button></p>
+</form>
       </div>
 
       

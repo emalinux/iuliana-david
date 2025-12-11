@@ -55,3 +55,32 @@ Se senti che è il momento di fare un passo concreto – per te, per la tua fami
 
 Ogni richiesta è letta personalmente da me: ti risponderò nel più breve tempo possibile per fissare una prima call conoscitiva.
 
+<form name="contact-it" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+  <input type="hidden" name="form-name" value="contact-it">
+
+  <p class="hidden">
+    <label>Non compilare questo campo: <input name="bot-field"></label>
+  </p>
+
+  <label>
+    Nome e cognome
+    <input type="text" name="name" required>
+  </label>
+
+  <label>
+    Email
+    <input type="email" name="email" required>
+  </label>
+
+  <label>
+    Telefono
+    <input type="tel" name="phone">
+  </label>
+
+  <label>
+    Messaggio
+    <textarea name="message" rows="5" required></textarea>
+  </label>
+
+  <button type="submit" class="btn-primary">Invia</button>
+</form>
