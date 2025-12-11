@@ -509,6 +509,8 @@ h1, h2, h3,
   margin-bottom: 0.3rem;
 }
 
+.hidden { display: none; }
+
 /* Spazio tra testo introduttivo e form contatti */
 .section--contact-page .contact-page__right {
   margin-top: 52px;   /* prova 32, se vuoi più aria metti 40 */
@@ -811,3 +813,4 @@ html[lang="ro"] .pill-nav__title {
 html[lang="ro"] .pill-nav__subtitle {
   font-size: 0.8rem;
 }
+

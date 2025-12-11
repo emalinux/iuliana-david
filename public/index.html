@@ -22,7 +22,7 @@
 
     
     
-    <link rel="stylesheet" href="/css/main.min.c74b17f72e9aa52bd474e9704086e55627db2060217cc1895c581f25af42e2d1.css">
+    <link rel="stylesheet" href="/css/main.min.c51d794c61f8058fe121304fae6f30317de2646e934c3568d66221a20376b21a.css">
   </head>
   <body>
     <header class="site-header">
@@ -486,7 +486,15 @@ Quella versione che forse hai lasciato indietro… ma che è sempre stata lì, p
     <h2>Contatti</h2>
     <p>Compila il form per richiedere informazioni o prenotare una sessione.</p>
 
-    <form action="#" method="post">
+    <form name="contact-it" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+      
+      <input type="hidden" name="form-name" value="contact-it">
+
+      
+      <p class="hidden">
+        <label>Non compilare questo campo: <input name="bot-field"></label>
+      </p>
+
       <label>
         Nome e cognome
         <input type="text" name="name" required>
@@ -497,11 +505,9 @@ Quella versione che forse hai lasciato indietro… ma che è sempre stata lì, p
         <input type="email" name="email" required>
       </label>
 
-      
       <label>
         Telefono
         <input type="tel" name="phone">
-        
       </label>
 
       <label>

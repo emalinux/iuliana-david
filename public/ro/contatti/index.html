@@ -21,7 +21,7 @@
 
     
     
-    <link rel="stylesheet" href="/css/main.min.c74b17f72e9aa52bd474e9704086e55627db2060217cc1895c581f25af42e2d1.css">
+    <link rel="stylesheet" href="/css/main.min.c51d794c61f8058fe121304fae6f30317de2646e934c3568d66221a20376b21a.css">
   </head>
   <body>
     <header class="site-header">
@@ -368,7 +368,15 @@
     <h2>Contact</h2>
     <p>Completează formularul pentru a solicita informații sau a programa o sesiune.</p>
 
-    <form action="#" method="post">
+    <form name="contact-ro" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+      
+      <input type="hidden" name="form-name" value="contact-ro">
+
+      
+      <p class="hidden">
+        <label>Lasă gol acest câmp: <input name="bot-field"></label>
+      </p>
+
       <label>
         Nume și prenume
         <input type="text" name="name" required>
@@ -379,11 +387,9 @@
         <input type="email" name="email" required>
       </label>
 
-      
       <label>
         Telefon
         <input type="tel" name="phone">
-        
       </label>
 
       <label>
