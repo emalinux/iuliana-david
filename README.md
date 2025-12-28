@@ -45,7 +45,6 @@ config.yaml        → Configurazione multilingua
 ## 🔧 Sviluppo locale
 Per avviare l’ambiente di sviluppo:
 
-```bash
 hugo server -D
 
 ---
