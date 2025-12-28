@@ -59,9 +59,9 @@ Ogni push sul branch main genera automaticamente una nuova build.
 
 👨‍💻 Autore
 
-Sito realizzato con ❤️ da Manuel – Assembler Computer Lab
+Sito realizzato con ❤️ da [Manuel – Assembler Computer](https://www.assemblercomputer.net/)
 Per consulenze, assistenza e sviluppo siti web personalizzati:
-https://assemblercomputer.net
+
 
 ⸻
 
