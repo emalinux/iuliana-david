@@ -23,7 +23,7 @@
     {{ $style := resources.Get "css/main.css" | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
   </head>
-  <body>
+  <body id="top">
     {{ partial "header.html" . }}
 
     <main>
@@ -31,5 +31,7 @@
     </main>
 
     {{ partial "footer.html" . }}
+    <a href="#top" class="scroll-top" title="Torna su">↑</a>
+    <script src="/js/main.js"></script>
   </body>
 </html>
